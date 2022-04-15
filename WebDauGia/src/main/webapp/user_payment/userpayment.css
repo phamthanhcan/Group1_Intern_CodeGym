@@ -1,0 +1,324 @@
+
+
+:root {
+    --aqua: #00FFFF;
+    --dosblu: #1E90FF;
+}
+
+.main .header {
+    padding: 1rem 4%;
+    background-color: var(--aqua);
+}
+
+.main .header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+
+.main .header ul li {
+    list-style-type: none;
+    margin: 0 1%;
+    font-size: 1.2rem;
+}
+
+.main .header ul li i {
+    margin: 0 0.5rem;
+}
+
+.main .header ul li a {
+    text-decoration: none;
+}
+
+.main .header ul li a span {
+    background-color: red;
+    color: #fff;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.main .navtion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #f3f3f386;
+}
+
+.main .navtion .navtion_left {
+    width: 75%;
+    height: 90vh;
+    background-color: #fff;
+    display: inline-flexbox;
+    margin: 1rem;
+    border: 1px solid rgba(167, 167, 167, 0.309);
+}
+
+.main .navtion .navtion_left form .nav_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.main .navtion .navtion_left form .nav_one p {
+    border: 1px solid rgba(128, 128, 128, 0.265);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.main .navtion .navtion_left form .nav_one .vienduoi {
+    border-bottom: 3px solid var(--aqua);
+}
+
+.main .navtion .navtion_left form .nav_to {
+    border: 1px solid rgba(128, 128, 128, 0.265);
+    margin: 2rem 1rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke {
+    border: 1px solid rgba(128, 128, 128, 0.265);
+    margin: 1rem 0.4rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_one h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0.5rem 2%;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_one h3 p {
+    color: var(--aqua);
+    margin: 0 0.3rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_one h3 span {
+    background-color: #646464;
+    color: #fff;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_to {
+    background-color: var(--aqua);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.6rem 2%;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_to .mixi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_to .mixi span {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 10px;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_to .mixi i {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    margin: 0 -0.5rem 0 1rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there {
+    padding: 2rem 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there img {
+    width: 100px;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center {
+    margin-left: -250px;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center h2 {
+    font-family: sans-serif;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type .count_box {
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 90px;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type .count_box span {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0.3rem 0.5rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type .count_box .xam {
+    background-color: grey;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type .count_box .xanh {
+    background-color: var(--aqua);
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_center .number-type .typing_box {
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 0.3rem 0.5rem;
+    margin-left: 1rem;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_left p {
+    color: gray;
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_left p span {
+    color: var(--dosblu);
+}
+
+.main .navtion .navtion_left form .nav_to .oke .to_there .neat_left a {
+    display: block;
+    margin-top: 2rem;
+}
+
+.main .navtion .navtion_right {
+    width: 25%;
+    background-color: #fff;
+    margin: 1.3rem 2% 0 0;
+}
+
+.main .navtion .navtion_right .donhang {
+    padding: 1rem;
+}
+
+.main .navtion .navtion_right .donhang h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main .navtion .navtion_right .donhang .thongtin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 1rem 0;
+}
+
+.main .navtion .navtion_right .donhang .thongtin p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .navtion .navtion_right .donhang .thongtin span {
+    color: var(--dosblu);
+}
+
+.main .navtion .navtion_right .donhang button {
+    background-color: chartreuse;
+    width: 100%;
+    padding: 0.6rem 0;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.main .navtion .navtion_right .donhang .cutkit {
+    margin: 1rem 0 0 0;
+}
+
+.main .navtion .navtion_right .donhang .cutkit p {
+    display: block;
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.main .navtion .navtion_right .donhang .cutkit p img {
+    margin-right: 1rem;
+}
+
+.main .navtion .navtion_right .video {
+    overflow: hidden;
+    width: 100%;
+}
+
+.main .navtion .navtion_right .video::after {
+    padding-top: 56, 25%;
+    display: block;
+    content: '';
+}
+
+.main .navtion .navtion_right .video iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main .fooder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 2rem 1%;
+}
+
+.main .fooder .contxt {
+    border: 1px solid rgba(128, 128, 128, 0.402);
+    width: 100%;
+    padding: 1rem;
+    height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main .fooder .contxt h3 {
+    text-transform: uppercase;
+}
+
+.main .fooder .contxt p {
+    color: gray;
+}
+/*# sourceMappingURL=style.css.map */
