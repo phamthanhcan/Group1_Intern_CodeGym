@@ -1,0 +1,62 @@
+fieldset {
+    margin: 0px 154px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #00ffa18c;
+    padding: 9px 29px;
+}
+select{
+    height: 100%;
+    width: 100%;
+}
+.cuoi {
+    text-align: right;
+}
+
+.btn {
+    border: none;
+    align-items: center;
+}
+
+body {
+    padding: 20px 20px;
+    background-color: #00ffa18c;
+}
+
+label {
+    font-weight: bold;
+    color: #377e7b;
+}
+
+legend {
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -0.125em;
+}
+
+.hieu {
+
+    font-weight: bold;
+    color: burlywood;
+}
+
+.anhthe{
+    width: 63%;
+    border: 1px solid black;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.btn{
+    margin-right: 20px;
+}
+.mid{
+    text-align: center;
+}

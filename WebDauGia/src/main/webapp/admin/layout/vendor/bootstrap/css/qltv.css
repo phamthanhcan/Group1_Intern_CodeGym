@@ -1,0 +1,43 @@
+fieldset {
+    margin: 0px 154px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #73cbff7a;
+    padding: 9px 29px;
+}
+
+.cuoi {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    align-items: center;
+}
+
+body {
+    padding: 20px 20px;
+    background-color: #00ffa18c;
+}
+
+label {
+    font-weight: bold;
+    color: #005aff7a;
+}
+
+legend {
+    font-family: cursive;
+    font-weight: bold;
+    color: burlywood;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -0.125em;
+}
+
+.hieu {
+    font-family: cursive;
+    font-weight: bold;
+    color: burlywood;
+}
