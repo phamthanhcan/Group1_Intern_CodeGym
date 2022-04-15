@@ -27,7 +27,7 @@
         <div class="account-options">
         <ul class="account-options-list">
         <li class="account-option-item">
-        <a href="">Thông tin cá nhân</a>
+        <a href="http://localhost:8080/user">Thông tin cá nhân</a>
         </li>
         <li class="account-option-item">
         <a href="">Sản phẩm đấu giá</a>
