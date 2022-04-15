@@ -1,0 +1,88 @@
+*{
+    margin-top: 10px;
+    padding: 0;
+}
+select{
+    height: 100%
+}
+.content{
+    padding-bottom: 20px;
+    display: flex;
+    padding-top: 20px;
+}
+.filter{
+    padding-right: 30px;
+}
+.filter-post{
+    display: flex;
+}
+.filter-post p {
+    padding-right: 10px;
+}
+.filter-post input{
+    height: 30px;
+    width: 150px;
+    padding: 8px;
+}
+.filter-pay{
+    display: flex;
+}
+.filter-pay p {
+    padding-right: 10px;
+}
+.filter-pay input{
+    height: 30px;
+    width: 150px;
+    margin-left: 6px;
+    padding: 5px;
+}
+.filter-rank{
+    display: flex;
+}
+.filter-rank select{
+    margin-left: 17px;
+    height: 36px;
+    width: 151px;
+}
+.filter-btn{
+    padding-left: 107px;
+    
+}
+.filter-btn button{
+    width: 150px;
+    height: 33px;
+    box-shadow: 2px 4px black;
+}
+.footer{
+    padding-left: 20px;
+}
+.footer-btn{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.btnn{
+    padding-top: 30px;
+}
+.btnn i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btnn button{
+    padding: 1px 10px;
+    font-size: 18px;
+    box-shadow: 2px 4px black;
+   
+}
+.pagination{
+    padding-top: 11px;
+}
+.footer{
+    height: 20px;
+    border-top: 1px solid black;
+}
+.checkbox{
+    cursor: pointer;
+   width: 18px;
+   height: 20px;
+}

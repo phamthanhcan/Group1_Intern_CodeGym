@@ -1,0 +1,79 @@
+fieldset {
+    margin: 0px 102px;
+
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: #00ffa18c;
+    padding: 9px 29px;
+}
+select{
+    width: 100%;
+    height: 100%;
+}
+.diachi2{
+    height: 142%;
+}
+.soxuong{
+    border: none;
+    border-radius: 3px;
+    height: 38px;
+}
+.anhthe{
+
+    filter: drop-shadow(0 0 5px #aaff5b);
+
+    width: 100%;
+    height: auto;
+}
+.cuoi {
+    text-align: right;
+}
+
+.btn {
+    border: none;
+    align-items: center;
+}
+
+body {
+    padding: 20px 20px;
+    background-color: #00ffa18c;
+}
+
+label {
+    font-weight: bold;
+    color: #377e7b;
+}
+
+legend {
+
+    font-weight: bold;
+
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -0.125em;
+}
+
+.hieu {
+    font-weight: bold;
+    color: burlywood;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.btn{
+    margin-right: 5px;
+}
+.mid{
+    text-align: center;
+}
+.invalid{
+    color: red;
+}
