@@ -27,7 +27,7 @@
         <div class="account-options">
         <ul class="account-options-list">
         <li class="account-option-item">
-        <a href="">Thông tin cá nhân</a>
+        <a href="http://localhost:8080/user">Thông tin cá nhân</a>
         </li>
         <li class="account-option-item">
         <a href="">Sản phẩm đấu giá</a>
@@ -57,11 +57,6 @@
         </li>
         <li class="nav-item">
         <a href="" class="nav-item-link">TOP ĐẤU GIÁ <i class="fa-solid fa-fire nav-item-icon"></i></a>
-        </li>
-
-    <!-- Nguyễn Hữu Long đã đến đây. 500 năm trước -->
-        <li class="nav-item">
-        <a href="" class="nav-item-link">Nguyễn Hữu Long đã đến đây. 500 năm trước <i class="fa-solid fa-fire nav-item-icon"></i></a>
         </li>
         <li class="nav-item">
         <a href="" class="nav-item-link">DANH MỤC <i class="fa-solid fa-angle-down"></i></a>
