@@ -189,52 +189,51 @@
         </button>
     </div>
     <div class="col-md-4">
-        <button type="button" onclick="location.href='them-san-pham.jsp';"  class="btn btn-info">Thêm mới sản phẩm
+        <button type="button" onclick="location.href='them-san-pham.jsp';" class="btn btn-info">Thêm mới sản phẩm
             <i class="fa-solid fa-square-plus"></i>
         </button>
     </div>
     <div class="col-md-4">
-    <nav aria-label="Page navigation example ">
-    <ul class="pagination d-flex justify-content-end">
-    <li class="page-item"><a class="page-link" href="#">Đầu</a></li>
-    <li class="page-item"><a class="page-link" href="#">Trước</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Sau</a></li>
-    <li class="page-item"><a class="page-link" href="#">Cuối</a></li>
-    </ul>
-    </nav>
+        <nav aria-label="Page navigation example ">
+            <ul class="pagination d-flex justify-content-end">
+                <li class="page-item"><a class="page-link" href="#">Đầu</a></li>
+                <li class="page-item"><a class="page-link" href="#">Trước</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Sau</a></li>
+                <li class="page-item"><a class="page-link" href="#">Cuối</a></li>
+            </ul>
+        </nav>
     </div>
-
 
 
     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-    <div class="modal-content">
-    <div class="modal-header">
-    <h5 class="modal-title">Xác nhận xóa</h5>
-    </div>
-    <form action="/product" method="post">
-    <input type="hidden" name="action" value="delete">
-    <input type="hidden" name="id" id="idProductDel">
-    <div class="modal-body">
-    Bạn có muốn xóa không? ??
-    </div>
-    <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-    <button  type="submit" class="btn btn-danger">Delete</button>
-    </div>
-    </form>
-    </div>
-    </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Xác nhận xóa</h5>
+                </div>
+                <form action="/product" method="post">
+                    <input type="hidden" name="action" value="delete">
+                    <input type="hidden" name="id" id="idProductDel">
+                    <div class="modal-body">
+                        Bạn có muốn xóa không? ??
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
 
     <script>
-    function onDelete(idProductDel){
-    document.getElementById("idProductDel").value = idProductDel;
-    }
+        function onDelete(idProductDel) {
+            document.getElementById("idProductDel").value = idProductDel;
+        }
     </script>
 
 </div>
