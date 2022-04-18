@@ -33,8 +33,8 @@
 <div style="background-color: #73cbff7a">
     <form action="" method="post" class="form"id="form-1">
         <h4>KHÓA THÀNH VIÊN</h4>
-        <div class="row">
-            <div class="col-md-4 " style="color: black;font-style: oblique; font-weight: bolder ">
+        <div class="row mb-3">
+            <div class="col-sm-4 " style="color: black;font-style: oblique; font-weight: bolder ">
                 <div> THỜI GIAN KHÓA *</div>
             </div>
             <div class="row mb-3">
