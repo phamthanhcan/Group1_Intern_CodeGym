@@ -42,13 +42,13 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div  id="navbarText">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item ">
                         <a class="nav-link" href="http://localhost:8080/user">Thông tin cá nhân  </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://localhost:8080/user_info/jsp/lich_su_dki_mat_hang_dau_gia.jsp">Lịch sử đăng bài </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="http://localhost:8080/user_info/jsp/lich_su_dau_gia.jsp">Lịch sử đấu giá</a>
                     </li>
 

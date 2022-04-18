@@ -21,7 +21,7 @@ public class User {
     }
 
     public User(int user_id, String name, String user_email, String user_dob, int user_cmnd
-    , int user_phone, String user_address, String account_name, int user_type_id) {
+            , int user_phone, String user_address, String account_name, int user_type_id) {
         this.user_id = user_id;
         this.name = name;
         this.user_email = user_email;
@@ -32,6 +32,14 @@ public class User {
         this.account_name = account_name;
         this.user_type_id = user_type_id;
 
+    }
+
+    public User(String userName, String userDob, int usercmnd, int userphone, String useradress) {
+        this.name = userName;
+        this.user_dob = userDob;
+        this.user_cmnd = usercmnd;
+        this.user_phone = userphone;
+        this.user_address = useradress;
     }
 
     public int getUser_id() {

@@ -128,11 +128,6 @@ Validator.isCmnd=function(selector){
 }
 
 Validator.isDiachi=function(selector){
-    return{
-        selector:selector,
-        test:function(value){
-            var regex=/^([0,9]+[a-zA-Z]+)((\s{1}[a-zA-Z]+){1,})$/;
-            return regex.test(removeAscent(value)) ? undefined:'Địa chỉ mới không hợp lệ'
-        }
-    }
+
+
 }

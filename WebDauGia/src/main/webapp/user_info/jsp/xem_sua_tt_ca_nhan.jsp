@@ -48,8 +48,9 @@
     <div class="title">
         Chỉnh sửa thông tin cá nhân
     </div>
+        <form method="post" action="/user?action=update">
 
-    <div class="form"  id="form-1">
+    <div class="form"  id="form-1"  >
             <div class="profile-pic-div">
                 <img src="/images/avt.jpg" , id="photo">
                 <input type="file" id="file">
@@ -68,7 +69,7 @@
                 <label>Họ và tên </label>
             </div>
             <div style="width: 100%">
-                <input class="form-control"  id="name" type="text" maxlength="45"
+                <input class="form-control"  id="name" name="name" type="text" maxlength="45"
                        value="${user.name}" class="input">
                 <small class="error" ></small>
             </div>
@@ -90,7 +91,7 @@
 
         <div class="inputfield">
             <label>Ngày Sinh </label>
-            <input id="dob" type="date" class="input" min="1900-01-01" max="2022-01-01"
+            <input id="dob" name="dob" type="date" class="input" min="1900-01-01" max="2021-12-31"
                    value=${user.user_dob}>
             <small class="form-message"></small>
 
@@ -119,7 +120,7 @@
                 <label> CMND </label>
             </div>
             <div style="width: 100%">
-                <input class="form-control"  id="cmnd" type="number" maxlength="15"
+                <input class="form-control"  id="cmnd" name="cmnd" type="number" maxlength="15"
                        placeholder=${user.user_cmnd}   value="${user.user_cmnd}" class="input">
                 <small class="error" ></small>
             </div>
@@ -131,36 +132,36 @@
                 <label> Số điện thoại </label>
             </div>
             <div style="width: 100%">
-                <input class="form-control"  id="sdt" type="number" maxlength="15"
+                <input class="form-control"  id="sdt" name="sdt" type="number" maxlength="15"
                        placeholder=${user.user_phone}     value="${user.user_phone}" class="input">
                 <small class="error" ></small>
             </div>
 
         </div>
-
         <div class="inputfield">
             <div style="max-width: 140px">
                 <label> Địa chỉ </label>
             </div>
             <div style="width: 100%">
-                <input class="form-control"  id="diachi" type="text" maxlength="150"
+                <input class="form-control"  id="diachi" name="diachi" type="text" maxlength="150"
                        placeholder=${user.user_address} value=${user.user_address} class="input">
                 <small class="error" ></small>
             </div>
 
         </div>
         <div style="background-color: #b8e28a" class="inputfield">
-            <input onclick="submit()" type="submit" value="Cập nhật thông tin " class="btn">
+            <input  type="submit" value="Cập nhật thông tin" class="btn">
         </div>
         <div class="inputfield">
-            <input onclick="cancel()" type="submit" value="Hủy" class="btn">
+            <input type="button" value="Hủy" class="btn">
         </div>
-    </div>
-</div>
-
         </c:forEach>
+    </div>
+        </form>
+</div>
 
 </div>
+
 <script src="/user_info/js/validator.js"></script>
 <script src="/user_info/js/avt.js"></script>
 <script>
