@@ -30,7 +30,11 @@
                     <h2 class="card_product-name">Laptop Vip</h2>
                     <p class="card_product-price">Giá: 14.000.000đ</p>
                     <p style="margin: 0;">Thời gian còn lại:</p>
-                    <p>02:23:40</p>
+                    <p><span id="days"></span>
+                        <span id="hours"></span>
+                        <span id="minutes"></span>
+                        <span id="seconds"></span>
+                    </p>
                     <button class="btn btn__primary card_product-btn">Đấu giá</button>
                 </div>
             </div>
@@ -205,5 +209,23 @@
 <script src="bootstrap-4.6.1-dist/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
 
 <script src="javascript/modal_product.js"></script>
+<script>
+    var fuT =new Date("jan 1,2023 00:00:00 ").getTime()
+    setInterval(function () {
+        var now= new Date().getTime()
+        var D= fuT - now
+        var days= Math.floor(D/(1000*60*60*24))
+        var hours= Math.floor(D/(1000*60*60))
+        var minutes= Math.floor(D/(1000*60))
+        var seconds= Math.floor(D/(1000))
+        hours %=24
+        minutes %=60
+        seconds %=60
+        document.getElementById("days").innerText= days + 'ngày'
+        document.getElementById("hours").innerText= hours + ':'
+        document.getElementById("minutes").innerText= minutes + ':'
+        document.getElementById("seconds").innerText= seconds
+    },1000)
+</script>
 </body>
 </html>
