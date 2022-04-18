@@ -5,6 +5,7 @@ fieldset {
     margin-top: 20px;
     background-color: #00ffa18c;
     padding: 9px 29px;
+    box-shadow: 2px 2px 2px grey;
 }
 select{
     width: 100%;
@@ -12,18 +13,6 @@ select{
 }
 .diachi2{
     height: 142%;
-}
-.soxuong{
-    border: none;
-    border-radius: 3px;
-    height: 38px;
-}
-.anhthe{
-
-    filter: drop-shadow(0 0 5px #aaff5b);
-
-    width: 100%;
-    height: auto;
 }
 .cuoi {
     text-align: right;
@@ -56,12 +45,16 @@ legend {
 }
 
 .hieu {
+
     font-weight: bold;
     color: burlywood;
 }
-img{
-    height: 200px;
-    width: 200px;
+
+.anhthe{
+
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
 }
 
 .main-content {
@@ -76,4 +69,9 @@ img{
 }
 .invalid{
     color: red;
+}
+.custom-select{
+    border: none;
+    border-radius: 3px;
+    height: 38px;
 }
