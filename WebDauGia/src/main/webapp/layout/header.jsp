@@ -27,7 +27,7 @@
         <div class="account-options">
         <ul class="account-options-list">
         <li class="account-option-item">
-        <a href="">Thông tin cá nhân</a>
+        <a href="http://localhost:8080/user">Thông tin cá nhân</a>
         </li>
         <li class="account-option-item">
         <a href="">Sản phẩm đấu giá</a>
@@ -50,7 +50,7 @@
         <div class="container">
         <ul class="nav-list">
         <li class="nav-item active">
-        <a href="" class="nav-item-link">ĐANG ĐẤU GIÁ <i class="fa-solid fa-gavel nav-item-icon"></i></a>
+        <a href="/product" class="nav-item-link">ĐANG ĐẤU GIÁ <i class="fa-solid fa-gavel nav-item-icon"></i></a>
         </li>
         <li class="nav-item">
         <a href="" class="nav-item-link">ĐÃ KẾT THÚC <i class="fa-solid fa-check nav-item-icon"></i></a>
