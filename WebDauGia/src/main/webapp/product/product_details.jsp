@@ -13,38 +13,39 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/body.css">
-    <link rel="stylesheet" href="../css/product_details.css">
+    <link rel="stylesheet" href="product_details.css">
 </head>
 <body>
     <jsp:include page="../layout/header.jsp"/>
 
     <div class="container">
         <div class="body row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="product-detail-img">
-                    <img src="../images/${product.product_image}" alt="">
+                    <img src="../images/iphone13.jpg" alt="">
                 </div>
-<%--                <div class="product-img-list">--%>
-<%--                    <div class="product-img-item">--%>
-<%--                        <img src="../images/iphone13.jpg" alt="">--%>
-<%--                    </div>--%>
-<%--                    <div class="product-img-item">--%>
-<%--                        <img src="../images/iphone-13-pro-max-xanh-la-thumb-600x600.jpg" alt="">--%>
-<%--                    </div>--%>
-<%--                    <div class="product-img-item">--%>
-<%--                        <img src="../images/-16476624266471816959410.webp" alt="">--%>
-<%--                    </div>--%>
-<%--                    <div class="product-img-item">--%>
-<%--                        <img src="../images/-16476624270211176807940.webp" alt="">--%>
-<%--                    </div>--%>
-<%--                    <div class="product-img-item">--%>
-<%--                        <img src="../images/ihoedsax.webp" alt="">--%>
-<%--                    </div>--%>
-<%--                </div>--%>
+                <div class="product-img-list">
+                    <div class="product-img-item">
+                        <img src="../images/iphone13.jpg" alt="">
+                    </div>
+                    <div class="product-img-item">
+                        <img src="../images/iphone-13-pro-max-xanh-la-thumb-600x600.jpg" alt="">
+                    </div>
+                    <div class="product-img-item">
+                        <img src="../images/-16476624266471816959410.webp" alt="">
+                    </div>
+                    <div class="product-img-item">
+                        <img src="../images/-16476624270211176807940.webp" alt="">
+                    </div>
+                    <div class="product-img-item">
+                        <img src="../images/ihoedsax.webp" alt="">
+                    </div>
+                </div>
             </div>
+            <div class="col-md-1"></div>
             <div class="col-md-6">
-                <h3 class="product-name">${product.product_name}</h3>
-                <p class="product-id">Mã sản phẩm: ${product.product_id}</p>
+                <h3 class="product-name">Iphone 13 ProMax LikeNew 99%</h3>
+                <p class="product-id">Mã sản phẩm: MSP123456</p>
                 <div>
                     <div class="item col" style="float: left">
                         <p>Ngày</p>
@@ -64,10 +65,10 @@
                     </div>
                 </div>
                 <h4 class="product-current-price">Giá hiện tại: <span>19.200.000đ</span></h4>
-                <p class="product-original-price">Giá gốc: <span>${product.product_price}</span></p>
-                <p>Bắt đầu: ${product.product_time_start}</p>
-                <p class="time-end">Kết thúc: ${product.product_time_end}</p>
-                <p>Mỗi lần tăng giá ít nhất: <span class="product-text-normal">${product.product_step_price}</span></p>
+                <p class="product-original-price">Giá gốc: <span>18.500.000đ</span></p>
+                <p>Bắt đầu: 09:35:00 06/04/2022</p>
+                <p>Kết thúc: 09:35:00 07/04/2022</p>
+                <p>Mỗi lần tăng giá ít nhất: <span class="product-text-normal">100.000đ</span></p>
                 <form action="" method="" class="product-auction">
                     <h5>Giá đấu giá</h5>
                     <input class="form-control product-auction-input" type="text" value="19.300.000đ">
@@ -196,9 +197,7 @@
     <script src="../javascript/product_details.js"></script>
 </body>
 <script>
-    var timeEnd = document.querySelector('.time-end').innerText
-    console.log(timeEnd)
-    var fuT =new Date(timeEnd).getTime()
+    var fuT =new Date("jan 1,2023 00:00:00 ").getTime()
     setInterval(function () {
         var now= new Date().getTime()
         var D= fuT - now

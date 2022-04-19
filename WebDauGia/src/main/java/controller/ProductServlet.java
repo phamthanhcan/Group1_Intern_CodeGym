@@ -32,7 +32,6 @@ public class ProductServlet extends HttpServlet {
             action = "";
         }
         switch (action) {
-            case "details": getProductDetails(request, response); break;
             default: getProductList(request,response);
         }
     }
@@ -43,13 +42,5 @@ public class ProductServlet extends HttpServlet {
 
         request.setAttribute("productList", productList);
         request.getRequestDispatcher("/product/product_home.jsp").forward(request, response);
-    }
-
-    private void getProductDetails(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int id = Integer.parseInt(request.getParameter("id"));
-        Product product = productService.getProduct(new Product(id));
-        System.out.println(product);
-        request.setAttribute("product", product);
-        request.getRequestDispatcher("/product/product_details.jsp").forward(request, response);
     }
 }
