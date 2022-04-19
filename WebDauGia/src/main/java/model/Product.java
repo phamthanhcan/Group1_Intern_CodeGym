@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Date;
-
 public class Product {
     private int product_id;
     private String product_name;

@@ -1,6 +1,5 @@
 package repository;
 
-import com.mysql.cj.protocol.Resultset;
 import model.Product;
 
 import java.sql.PreparedStatement;
@@ -8,7 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.NumberFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
