@@ -31,7 +31,7 @@
                 <div class="col-sm-3 product_wrapper">
                     <div class="card_product">
 
-                        <div class="card_product-link" href="">
+                        <div class="card_product-link">
                             <div class="card_product-img">
                                 <img src="images/${product.product_image}" alt="">
                             </div>

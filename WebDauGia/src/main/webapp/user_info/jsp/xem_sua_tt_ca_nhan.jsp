@@ -5,44 +5,14 @@
 <html>
 <head>
     <title>chinhsuattcanhan</title>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/base.css">
     <link rel="stylesheet" href="/user_info/css/css.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 <div >
-    <div class="header" >
-        <div class="container">
-            <div class="header_top" style="text-align: center">
-                <h1 > QUẢN LÝ THÔNG TIN CÁ NHÂN</h1>
-            </div>
-        </div>
-        <div style="margin-top: 35px">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="http://localhost:8080/user">Thông tin cá nhân  </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/user_info/jsp/lich_su_dki_mat_hang_dau_gia.jsp">Lịch sử đăng bài </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/user_info/jsp/lich_su_dau_gia.jsp">Lịch sử đấu giá</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        </div>
-        <div>
-            <a href= "http://localhost:8080/index.jsp" style="text-align: left; margin-left: 20px" >
-                Trang chủ        </a>
-            <a style="margin-left: 5px">  ></a>
-            <a href= "http://localhost:8080/user" style="text-align: left; margin-left: 5px" >
-            Thông tin cá nhân</a>
-        </div>
-    </div>
-
-
+    <jsp:include page="../../layout/header.jsp"/>
 
     <div style="margin-top: 150px;  background-color: #f9fff2; border-radius: 5px" class="wrapper">
     <div class="title">
