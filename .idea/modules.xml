@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Group1_Intern_CodeGym.iml" filepath="$PROJECT_DIR$/.idea/Group1_Intern_CodeGym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daugia.iml" filepath="$PROJECT_DIR$/.idea/modules/daugia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daugia.main.iml" filepath="$PROJECT_DIR$/.idea/modules/daugia.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daugia.test.iml" filepath="$PROJECT_DIR$/.idea/modules/daugia.test.iml" />
     </modules>
   </component>
 </project>
